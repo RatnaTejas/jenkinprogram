@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                sh 'javac Additio.java'
+                sh 'javac Addition.java'
             }
         }
 
